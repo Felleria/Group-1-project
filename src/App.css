@@ -36,3 +36,103 @@
     transform: rotate(360deg);
   }
 }
+.menu{
+  display:flex ;
+  flex-wrap: wrap;
+}
+.card{
+  height: 300px;
+  width: 200px;
+  margin: 20px;
+}
+.card img{
+  height: 150px;
+  width: 150x;
+}
+.button {
+  background-color: #007bff; /* Blue background color */
+  color: #ffffff; /* White text color */
+  padding: 10px 20px; /* Padding around the button text */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Show pointer cursor on hover */
+  text-decoration: none; /* Remove default link underline */
+  font-size: 16px; /* Font size */
+}
+.CardDetail {
+  .card {
+    width: 250px; /* Adjust width as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Additional styling for card hover effect (optional) */
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  .FoodDetail {
+    .card {
+      width: 250px; /* Adjust width as needed */
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card-img-top {
+      width: 100%;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+    
+    .card-body {
+      padding: 10px;
+    }
+    
+    .card-title {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    .card-text {
+      font-size: 1rem;
+      color: #555;
+    }
+    
+    /* Additional styling for card hover effect (optional) */
+    .card:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      transform: translateY(-2px);
+    }
+    
+    
+  }
+  .navbar{
+    display: flex;
+    color: aqua;
+  }
+  
+}
