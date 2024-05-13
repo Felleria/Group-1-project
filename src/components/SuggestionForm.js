@@ -39,7 +39,7 @@ const SuggestionForm = () => {
   return (
     <div>
       <h2>Submit Your Suggestion</h2>
-      <form onSubmit={handleSubmit}> {/* Attach handleSubmit to form submission event */}
+      <form onSubmit={handleSubmit}> 
         <div>
           <label>Name:</label>
           <input type="text" name="name" value={formData.name} onChange={handleChange} required />
@@ -52,7 +52,7 @@ const SuggestionForm = () => {
           <label>Suggestion:</label>
           <textarea name="suggestion" value={formData.suggestion} onChange={handleChange} required />
         </div>
-        <button type="submit">Submit</button> {/* Use type="submit" to trigger form submission */}
+        <button type="submit">Submit</button> 
       </form>
     </div>
   );
