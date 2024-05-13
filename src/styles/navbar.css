@@ -1,0 +1,25 @@
+nav {
+    background-color: #282c34; /* Background color */
+    padding: 10px; /* Add padding */
+  }
+  
+  nav ul {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add spacing between list items */
+  }
+  
+  nav ul li a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 18px; /* Font size */
+  }
+  
+  nav ul li a:hover {
+    color: #61dafb; /* Change text color on hover */
+  }

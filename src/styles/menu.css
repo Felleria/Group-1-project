@@ -1,0 +1,33 @@
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .image-container {
+    margin-bottom: 20px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px; /* Add rounded corners to the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the image */
+  }
+  
+  .text-content {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .text-content p {
+    margin-bottom: 20px;
+  }
+  
+  .text-content h2 {
+    color: #007bff; /* Set heading color */
+    margin-bottom: 20px;
+  }
