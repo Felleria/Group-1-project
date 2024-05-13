@@ -1,8 +1,10 @@
+// App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar';
 import About from './components/Menu';
 import Cart from './components/ContactUs';
+import SuggestionForm from './components/SuggestionForm'; // Import SuggestionForm component
 
 import "./App.css";
 
@@ -19,6 +21,7 @@ const App = () => {
         <Routes>
           <Route path="/about" element={<About />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/suggestion" element={<SuggestionForm />} /> {/* Add SuggestionForm route */}
         </Routes>
       </div>
     </Router>

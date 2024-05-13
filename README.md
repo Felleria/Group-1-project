@@ -7,6 +7,7 @@ By Felleria; https://github.com/Felleria/Group-1-project.git
 1. alows you to view food items 
 2. allows you to add food item to cart
 3. A contact us page that allows someone to see contact details
+4. allows user to add suggestions 
 
 ## Deployment   https://group-1-project-iota.vercel.app/
 
