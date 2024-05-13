@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar';
 import About from './components/Menu';
-import Cart from './components/Cart';
+import Cart from './components/ContactUs';
 
 import "./App.css";
 
