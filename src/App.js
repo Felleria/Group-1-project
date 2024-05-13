@@ -1,10 +1,10 @@
-// App.js
+
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar';
-import About from './components/Menu';
-import Cart from './components/ContactUs';
-import SuggestionForm from './components/SuggestionForm'; // Import SuggestionForm component
+import Menu from './components/Menu';
+import Contact from './components/ContactUs';
+import SuggestionForm from './components/SuggestionForm'; 
 
 import "./App.css";
 
@@ -15,13 +15,13 @@ const App = () => {
         <Navbar />
         <h1>Food Palace</h1>
         <div>
-          {/* Other content goes here */}
+          
         </div>
         
         <Routes>
-          <Route path="/about" element={<About />} />
-          <Route path="/cart" element={<Cart />} />
-          <Route path="/suggestion" element={<SuggestionForm />} /> {/* Add SuggestionForm route */}
+          <Route path="/menu" element={<Menu />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/suggestion" element={<SuggestionForm />} /> 
         </Routes>
       </div>
     </Router>
